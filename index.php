@@ -19,7 +19,7 @@ include('config.php');
 //We display a welcome message, if the user is logged, we display it username
 ?>
 
-Hello
+Hello!
 <?php
 if(isset($_SESSION['username'])) {
 	echo ' '.htmlentities($_SESSION['username'], ENT_QUOTES, 'UTF-8');}
